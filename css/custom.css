@@ -1,4 +1,4 @@
-.container{
+section{
     margin-bottom: 100px;
 }
 
@@ -6,7 +6,8 @@ header{
     margin-top: 20px;
     margin-bottom: 10px !important;
 }
-.curousel-section{
+
+.bg1{
     background-image: url(../images/bg-2.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -14,24 +15,48 @@ header{
     height: 500px;
 }
 
-.custom-bg{
-    background-image: url(../images/bg-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
 .btn{
     background-color: #000;
 }
 
-.carousel-indicators .color{
-    background: #CECECE;
-    width: 10px;
-    height: 3px;
-}
-.carousel-indicators .active{
+.color{
     background: linear-gradient(to right,  #ffb12a 0%,#ffd019 100%);
-    width: 30px !important;
-    height: 3px !important;
+    
+}
+
+.product-header{
+    margin-bottom: 40px;
+}
+.card-body p{
+    color: #707070;
+}
+span{
+    color: #FF9D00;
+    cursor: pointer;
+}
+
+.card{
+    border: none;
+    box-shadow: 0px 1px 6px -4px grey;
+}
+
+.categorie-header>span{
+    background: linear-gradient(to right,  #ffb12a 0%,#ffd019 100%);
+    border-radius: 8px;
+    display: inline-block;
+    width: 90px;
+    height: 6px;
+}
+
+.cate-bg{
+    box-shadow: 0px 0px 9px -1px lightgray;
+    padding: 25px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cate-img{
+    margin: 20px 0;
 }
