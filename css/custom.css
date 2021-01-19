@@ -7,13 +7,13 @@ header{
     margin-bottom: 10px !important;
 }
 
-.bg1{
+/* .bg1{
     background-image: url(../images/bg-2.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 100px 100px;
     height: 500px;
-}
+} */
 
 .btn{
     background-color: #000;
